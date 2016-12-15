@@ -1,0 +1,109 @@
+﻿html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Nova Square', cursive;
+    color: #ffffff;
+    overflow:hidden;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 60px;
+    background-color: #2D6CA2;
+}
+
+#bottom {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #000;
+}
+
+#heading {
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    right: 0px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    pointer-events: none;
+}
+
+#feed {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 12px;
+}
+#feed > a {
+    color: white;
+}
+
+#map {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#panel {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-family: 'Nova Mono', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+
+#panel > div {
+    display: block;
+}
+
+#panel > div > div {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+#panel > div > div:nth-child(1) {
+    width: 150px;
+    text-align: left;
+}
+#panel > div > div:nth-child(2) {
+    width: 125px;
+    text-align: left;
+}
+#panel > div > div:nth-child(3) {
+    width: 125px;
+    text-align: left;
+}
+#panel > div > div:nth-child(4) {
+    width: 75px;
+    text-align: right;
+}
+
+#panel > div:nth-child(1) { opacity: 1; }
+#panel > div:nth-child(2) { opacity: 0.8; }
+#panel > div:nth-child(3) { opacity: 0.6; }
+#panel > div:nth-child(4) { opacity: 0.5; }
+#panel > div:nth-child(5) { opacity: 0.35; }
+#panel > div:nth-child(6) { opacity: 0.3; }
+#panel > div:nth-child(7) { opacity: 0.25; }
+#panel > div:nth-child(8) { opacity: 0.2; }
+#panel > div:nth-child(9) { opacity: 0.15; }
+#panel > div:nth-child(10) { opacity: 0.1; }
+#panel > div:nth-child(11) { opacity: 0.0; }
